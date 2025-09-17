@@ -1,0 +1,275 @@
+Create a modern, professional, clean construction company website for Nirman Group, established in 1980 in Nashik, Maharashtra. Use real company data and project information throughout.
+
+REAL COMPANY INFORMATION TO USE:
+Established: 1980 (45+ years of experience)
+
+Head Office: Nirman House, L.P. Poddar Marg, College Road, Nashik - 422005
+
+Phone: +91 8888883257, +91 8888883294
+
+Email: sales@nirman.co.in
+
+Business Hours: Monday-Friday 9:00 AM - 6:00 PM, Saturday Closed, Sunday Closed
+
+REAL CURRENT PROJECTS TO FEATURE:
+1. Nirman's Mangalum (Primary Featured Project)
+Status: Ongoing Construction
+
+Location: Tukaram Kale Road, Gangapur Road, Behind Guruji Hospital, Anandvalli, Nashik
+
+Configuration: 1 BHK & 2 BHK Apartments
+
+Total Units: 96 residential apartments
+
+Structure: Ground + 6 floors, 4 wings
+
+Carpet Area: 394-650 sq ft (1 BHK), 547-1017 sq ft (2 BHK)
+
+Price Range: ₹20.16 - ₹31.41 Lakhs
+
+Project Area: 0.79 acres
+
+RERA ID: P51600018587
+
+Possession: November 2021 onwards
+
+Key Features: Sky Club on terrace, Kids' Play Zone, Grocery Stores, Landscaped Garden
+
+Specifications: Granite kitchen platform with SS sink, Vitrified tiles, Concealed plumbing, Gypsum wall finish
+
+2. Nirman's Dwarkapuram
+Status: Completed/Ready to Move
+
+Location: Dwarka, Near Tata Motors, Dwarka Circle, Nashik
+
+Configuration: 1 BHK & 2 BHK Apartments
+
+Total Units: 125-132 units
+
+Project Area: 1.28 acres
+
+Carpet Area: 341-594 sq ft (1 BHK), 712-892 sq ft (2 BHK)
+
+Price Status: Sold Out
+
+RERA ID: P51600001184
+
+Possession: May 2020 onwards
+
+Status: Most units sold out
+
+3. Nirman's Vrindavan Gardens
+Status: Ready to Move/Completed
+
+Location: Satpur Colony, Shramik Nagar, Nashik
+
+Configuration: 1 BHK, 1.5 BHK & 2 BHK Apartments
+
+Carpet Area: 354-568 sq ft
+
+Price Status: Sold Out
+
+RERA ID: P51600014656
+
+Possession: January 2021 onwards
+
+4. Nirman Sugandh
+Status: Completed
+
+Location: Gangapur Road, Nashik
+
+Configuration: 2 BHK Apartments
+
+Carpet Area: 631-727 sq ft
+
+Price Range: ₹16.72 - ₹19.26 Lakhs
+
+Project Area: 1.00 acre
+
+Features: 24Hrs Water Supply, Covered Car Parking, Lift, CCTV
+
+COMPLETED PROJECTS TO MENTION:
+Nirman Classic - Shreerang Nagar (3 BHK, 1560 sq ft)
+
+Nirman Ashiyana - Dwarka (1 & 2 BHK)
+
+Nirman Upavan - Near Kalaram Mandir, Panchavati
+
+Nirman Nakshatra - Panchvati
+
+Various Plot Development Projects - Multiple locations
+
+DETAILED WEBSITE STRUCTURE WITH REAL DATA:
+HOMEPAGE:
+Hero Section:
+
+Headline: "Building Dreams Since 1980 - 45 Years of Excellence"
+
+Subheadline: "Nashik's Trusted Real Estate Developer with 1000+ Happy Families"
+
+Background: Construction site images from actual projects
+
+Stats Counter: "45+ Years Experience | 22+ Projects Completed | 1000+ Happy Families | 500+ Crores Assets"
+
+About Section:
+
+"Since 1980, Nirman Group has been at the forefront of Nashik's urban development"
+
+"Located at Nirman House on College Road, we've transformed Nashik's skyline"
+
+Key achievements and milestones from 1980 to 2025
+
+Featured Projects Cards:
+
+Mangalum Card: Show ongoing construction, ₹20-31L range, Sky Club amenity
+
+Dwarkapuram Card: "Sold Out Success" badge, 125 units completed
+
+Vrindavan Gardens Card: "Ready to Move" status, Satpur location
+
+PROJECTS PAGE:
+Ongoing Projects Section:
+
+Mangalum Full Details: Complete specifications, floor plans, amenities list, construction progress at 75%, virtual tour capability, location map showing Guruji Hospital proximity
+
+Completed Projects Portfolio:
+
+Dwarkapuram Success Story: Customer testimonials, before/after images, sold-out achievement
+
+Vrindavan Gardens: Ready possession stories, family move-ins
+
+Sugandh: Budget-friendly success in Gangapur Road
+
+Upcoming Projects Teaser:
+
+"New launches coming soon in prime Nashik locations"
+
+Newsletter signup for early bird offers
+
+SERVICES PAGE:
+Core Services Based on Real Offerings:
+
+Residential Development: 1, 2, 3 BHK apartments with examples from Mangalum
+
+Plot Development: Reference actual plot projects in Wadala Gaon, Shalimar
+
+RERA Compliance: Highlight all projects have valid RERA registrations
+
+Quality Construction: Granite platforms, vitrified tiles, concealed plumbing
+
+Customer Support: Reference actual business hours and contact methods
+
+ABOUT US PAGE:
+Company Timeline:
+
+1980: Nirman Group founded
+
+1990s-2000s: Early residential projects in Nashik
+
+2010s: Expansion to multiple locations (Gangapur Road, Dwarka, Panchvati)
+
+2020s: RERA compliance, modern amenities integration
+
+2025: 45 years of excellence, looking toward future growth
+
+Leadership Section:
+
+Founder's vision for Nashik development
+
+Current management team
+
+Company values: Quality, Transparency, Timely Delivery
+
+CONTACT PAGE:
+Real Contact Information:
+
+Head Office Address: Nirman House, L.P. Poddar Marg, College Road, Nashik - 422005
+
+Phone Numbers: +91 8888883257 (Sales), +91 8888883294 (Support)
+
+Email: sales@nirman.co.in
+
+Business Hours: Monday-Friday 9:00 AM - 6:00 PM
+
+Google Maps: Embed actual office location opposite Big Bazaar
+
+Site Office Locations:
+
+Mangalum Site Office: Behind Guruji Hospital, Anandvalli
+
+Project-specific contact numbers for each active development
+
+CUSTOMER TESTIMONIALS (Based on Real Feedback Patterns):
+Rajesh Sharma - Mangalum Resident: "The Sky Club amenity is exactly as promised. Quality construction with timely updates."
+
+Priya Patel - Dwarkapuram Owner: "Bought in 2020, excellent location near Tata Motors. Great connectivity."
+
+Amit Desai - Vrindavan Gardens: "45 years of experience shows in every detail. Ready possession as committed."
+
+INTERACTIVE TOOLS:
+EMI Calculator:
+
+Pre-filled with actual project prices (₹20L-₹31L range for Mangalum)
+
+Interest rates: 8.5%-12% current market rates
+
+Tenure options: 10-30 years
+
+Project Comparison Tool:
+
+Compare Mangalum vs Dwarkapuram vs Vrindavan Gardens
+
+Real specifications, prices, locations, amenities
+
+NEWS & UPDATES:
+Recent Updates (Use Current Date Context):
+
+September 2025: "Mangalum Achieves 75% Construction Completion"
+
+August 2025: "New RERA Approvals Received for Upcoming Projects"
+
+July 2025: "45 Years Celebration - Special Offers for New Bookings"
+
+FOOTER:
+Complete Real Information:
+
+Full company address with landmark (Opposite Big Bazaar)
+
+All phone numbers and department-wise contacts
+
+Project-wise RERA IDs displayed
+
+Social media: Reference actual Twitter handle @NirmanGroup1
+
+Business registration details
+
+DESIGN SPECIFICATIONS:
+Color Scheme: Navy blue primary, orange construction accent, clean whites
+
+Typography: Montserrat headings, Open Sans body text
+
+Style: Professional, clean, minimal animations
+
+Mobile-first responsive design
+
+Fast loading with compressed images of actual projects
+
+RERA compliance badges prominently displayed
+
+Local Nashik context in language and references
+
+User Experience:
+
+Smooth page transitions (fade/slide effects)
+Interactive hover states: 3D card tilts, image zoom effects, animated link underlines
+Scroll-triggered animations: fade-up and slide-in reveals for content sections
+Animated counters for statistical data
+Accessible focus states with smooth outline transitions
+Reduced-motion toggle for accessibility compliance
+Performance & Accessibility:
+
+Implement lazy loading for below-fold images
+Preload critical assets for optimal loading speed
+Ensure full keyboard navigation compatibility
+Include comprehensive ARIA labels and skip-to-content functionality
+Design responsive breakpoints 
