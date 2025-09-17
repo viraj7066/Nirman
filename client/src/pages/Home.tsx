@@ -6,10 +6,12 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import EMICalculator from "@/components/EMICalculator";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ScrollIndicator from "@/components/ScrollIndicator";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
+      <ScrollIndicator />
       <Header />
       <main>
         <Hero />

@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import heroImage from "@assets/generated_images/Construction_site_hero_image_e22705d0.png";
+import FloatingElements from "./FloatingElements";
 import { Play, Award, Users, Building, Calendar } from "lucide-react";
 
 interface CounterProps {
@@ -39,9 +41,14 @@ function Counter({ end, suffix = "", prefix = "" }: CounterProps) {
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <FloatingElements />
+      
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img
+        <motion.img
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 2, ease: "easeOut" }}
           src={heroImage}
           alt="Nirman Group Construction Site"
           className="w-full h-full object-cover"
@@ -52,76 +59,117 @@ export default function Hero() {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <Badge className="mb-6 text-orange bg-orange/10 border-orange/20" data-testid="badge-established">
-            <Award className="w-4 h-4 mr-2" />
-            Established 1980 - 45+ Years of Excellence
-          </Badge>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <Badge className="mb-6 text-orange bg-orange/10 border-orange/20" data-testid="badge-established">
+              <Award className="w-4 h-4 mr-2" />
+              Established 1980 - 45+ Years of Excellence
+            </Badge>
+          </motion.div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          <motion.h1 
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.4 }}
+            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight"
+          >
             Building Dreams
-            <span className="block text-orange font-serif italic">Since 1980</span>
-          </h1>
+            <motion.span 
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.8 }}
+              className="block text-orange font-serif italic"
+            >
+              Since 1980
+            </motion.span>
+          </motion.h1>
 
-          <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
+          <motion.p 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed"
+          >
             Nashik's Most Trusted Real Estate Developer
             <br />
             Creating Quality Homes for Happy Families
-          </p>
+          </motion.p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-orange hover:bg-orange/90 text-lg px-8 py-6"
-              data-testid="button-explore-projects"
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1 }}
+            className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+          >
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
-              <Building className="mr-2 h-5 w-5" />
-              Explore Our Projects
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="text-white border-white/30 hover:bg-white/10 text-lg px-8 py-6 backdrop-blur-sm"
-              data-testid="button-watch-video"
+              <Button 
+                size="lg" 
+                className="bg-orange hover:bg-orange/90 text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all duration-300"
+                data-testid="button-explore-projects"
+              >
+                <Building className="mr-2 h-5 w-5" />
+                Explore Our Projects
+              </Button>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
-              <Play className="mr-2 h-5 w-5" />
-              Watch Our Story
-            </Button>
-          </div>
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="text-white border-white/30 hover:bg-white/10 text-lg px-8 py-6 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300"
+                data-testid="button-watch-video"
+              >
+                <Play className="mr-2 h-5 w-5" />
+                Watch Our Story
+              </Button>
+            </motion.div>
+          </motion.div>
         </div>
 
         {/* Stats Counter */}
-        <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 mx-auto max-w-4xl border border-white/20">
+        <motion.div 
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="bg-white/10 backdrop-blur-md rounded-2xl p-8 mx-auto max-w-4xl border border-white/20 shadow-2xl"
+        >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center" data-testid="stat-experience">
-              <div className="text-orange mb-2">
-                <Calendar className="w-8 h-8 mx-auto" />
-              </div>
-              <Counter end={45} suffix="+" />
-              <div className="text-white/80 text-sm mt-1">Years Experience</div>
-            </div>
-            <div className="text-center" data-testid="stat-projects">
-              <div className="text-orange mb-2">
-                <Building className="w-8 h-8 mx-auto" />
-              </div>
-              <Counter end={22} suffix="+" />
-              <div className="text-white/80 text-sm mt-1">Projects Completed</div>
-            </div>
-            <div className="text-center" data-testid="stat-families">
-              <div className="text-orange mb-2">
-                <Users className="w-8 h-8 mx-auto" />
-              </div>
-              <Counter end={1000} suffix="+" />
-              <div className="text-white/80 text-sm mt-1">Happy Families</div>
-            </div>
-            <div className="text-center" data-testid="stat-assets">
-              <div className="text-orange mb-2">
-                <Award className="w-8 h-8 mx-auto" />
-              </div>
-              <Counter end={500} suffix="+" />
-              <div className="text-white/80 text-sm mt-1">Crores Assets</div>
-            </div>
+            {[
+              { icon: Calendar, end: 45, suffix: "+", label: "Years Experience", testId: "stat-experience", delay: 0 },
+              { icon: Building, end: 22, suffix: "+", label: "Projects Completed", testId: "stat-projects", delay: 0.2 },
+              { icon: Users, end: 1000, suffix: "+", label: "Happy Families", testId: "stat-families", delay: 0.4 },
+              { icon: Award, end: 500, suffix: "+", label: "Crores Assets", testId: "stat-assets", delay: 0.6 }
+            ].map((stat, index) => (
+              <motion.div 
+                key={stat.testId}
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: 1.4 + stat.delay }}
+                whileHover={{ scale: 1.05 }}
+                className="text-center" 
+                data-testid={stat.testId}
+              >
+                <motion.div 
+                  className="text-orange mb-2"
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <stat.icon className="w-8 h-8 mx-auto" />
+                </motion.div>
+                <Counter end={stat.end} suffix={stat.suffix} />
+                <div className="text-white/80 text-sm mt-1">{stat.label}</div>
+              </motion.div>
+            ))}
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
