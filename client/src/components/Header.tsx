@@ -2,6 +2,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { useState } from "react";
+import logoImage from "@assets/generated_images/logo.png";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -46,7 +47,7 @@ export default function Header() {
           <Link href="/">
             <div className="flex items-center gap-3 hover-elevate rounded-lg p-2" data-testid="link-home">
               <img
-                src="http://nirman.co.in/Nirman-Mangalum-Gangapur-Road-Nashik/assets/img/nirman.png"
+                src={logoImage}
                 alt="Nirman Group logo"
                 className="w-14 h-14 rounded object-contain bg-white"
               />
