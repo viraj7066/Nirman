@@ -25,19 +25,19 @@ export default function About() {
   //todo: remove mock functionality - replace with real leadership data
   const leadership = [
     {
-      name: "Rajesh Nirman",
-      position: "Chairman & Managing Director",
+      name: "Hitesh Poddar",
+      position: "Managing Director",
       experience: "45+ Years",
       description: "Visionary leader who founded Nirman Group in 1980 with a dream to provide quality homes to Nashik families."
     },
     {
-      name: "Priya Nirman",
-      position: "Executive Director",
+      name: "Mahendra Poddar",
+      position: "General Manager",
       experience: "25+ Years", 
       description: "Leads project execution and customer relations, ensuring every family gets their dream home."
     },
     {
-      name: "Amit Sharma",
+      name: "XYZ",
       position: "Chief Architect",
       experience: "20+ Years",
       description: "Award-winning architect responsible for the innovative designs and modern amenities in our projects."
