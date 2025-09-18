@@ -7,8 +7,10 @@ import ProjectFilter from "@/components/ProjectFilter";
 import AnimatedSection from "@/components/AnimatedSection";
 import { Badge } from "@/components/ui/badge";
 import { Building2, MapPin } from "lucide-react";
-import mangalumImage from "@assets/generated_images/Mangalum_project_building_exterior_1cf65600.png";
+import magalamImage from "@assets/generated_images/magalam.png";
 import interiorImage from "@assets/generated_images/Modern_apartment_interior_view_db2e5e51.png";
+import dwarakaImage from "@assets/generated_images/dwaraka.png";
+import vrindavanImage from "@assets/generated_images/vrinda.jpg";
 
 export default function Projects() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -22,7 +24,7 @@ export default function Projects() {
       title: "Nirman's Mangalum",
       location: "Tukaram Kale Road, Gangapur Road, Behind Guruji Hospital, Anandvalli, Nashik",
       status: "Ongoing" as const,
-      image: mangalumImage,
+      image: magalamImage,
       configuration: "1 BHK & 2 BHK Apartments",
       priceRange: "₹20.16 - ₹31.41 Lakhs",
       carpetArea: "394-1017 sq ft",
@@ -37,7 +39,7 @@ export default function Projects() {
       title: "Nirman's Dwarkapuram",
       location: "Dwarka, Near Tata Motors, Dwarka Circle, Nashik",
       status: "Sold Out" as const,
-      image: interiorImage,
+      image: dwarakaImage,
       configuration: "1 BHK & 2 BHK Apartments",
       carpetArea: "341-892 sq ft",
       totalUnits: 132,
@@ -51,7 +53,7 @@ export default function Projects() {
       title: "Nirman's Vrindavan Gardens",
       location: "Satpur Colony, Shramik Nagar, Nashik",
       status: "Ready to Move" as const,
-      image: mangalumImage,
+      image: vrindavanImage,
       configuration: "1 BHK, 1.5 BHK & 2 BHK",
       carpetArea: "354-568 sq ft",
       totalUnits: 84,
@@ -80,7 +82,7 @@ export default function Projects() {
       title: "Nirman Classic",
       location: "Shreerang Nagar, Nashik",
       status: "Completed" as const,
-      image: mangalumImage,
+      image: magalamImage,
       configuration: "3 BHK Apartments",
       carpetArea: "1560 sq ft",
       totalUnits: 24,

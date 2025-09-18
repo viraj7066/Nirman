@@ -407,6 +407,39 @@ export default function About() {
             </AnimatedSection>
           </div>
         </section>
+
+        {/* Map Section */}
+        <section className="py-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <AnimatedSection>
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Find Us</h2>
+                <p className="text-muted-foreground max-w-2xl mx-auto">
+                  Located in the heart of Nashik at College Road, easily accessible from all parts of the city
+                </p>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={0.2}>
+              <Card>
+                <CardContent className="p-0">
+                  <div className="rounded-lg overflow-hidden">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.0377474407187!2d73.76356081125897!3d20.006930381321318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb997aa969f9%3A0x8e08926d300e9dcf!2sNirman%20Group%2C%20Nashik!5e0!3m2!1sen!2sin!4v1758135734763!5m2!1sen!2sin" 
+                      width="100%" 
+                      height="450" 
+                      style={{border: 0}} 
+                      allowFullScreen 
+                      loading="lazy" 
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Nirman Group Location Map"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
+            </AnimatedSection>
+          </div>
+        </section>
       </main>
 
       <Footer />

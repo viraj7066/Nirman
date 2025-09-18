@@ -14,6 +14,7 @@ export default function Header() {
     { path: "/projects", label: "Projects" },
     { path: "/about", label: "About Us" },
     { path: "/services", label: "Services" },
+    { path: "/gallery", label: "Gallery" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -44,9 +45,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center gap-3 hover-elevate rounded-lg p-2" data-testid="link-home">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">N</span>
-              </div>
+              <img
+                src="http://nirman.co.in/Nirman-Mangalum-Gangapur-Road-Nashik/assets/img/nirman.png"
+                alt="Nirman Group logo"
+                className="w-14 h-14 rounded object-contain bg-white"
+              />
               <div>
                 <h1 className="font-serif text-xl font-semibold text-primary">Nirman Group</h1>
                 <p className="text-xs text-muted-foreground">Building Dreams Since 1980</p>
@@ -71,8 +74,10 @@ export default function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline" data-testid="button-brochure">
-              Download Brochure
+            <Button variant="outline" data-testid="button-brochure" asChild>
+              <a href="http://nirman.co.in/Nirman-Mangalum-Gangapur-Road-Nashik/mangalum-june-broucher.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download brochure PDF">
+                Download Brochure
+              </a>
             </Button>
             <Button className="bg-orange hover:bg-orange/90" data-testid="button-schedule-visit">
               Schedule Visit
@@ -108,8 +113,10 @@ export default function Header() {
                 </Link>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="outline" data-testid="mobile-button-brochure">
-                  Download Brochure
+                <Button variant="outline" data-testid="mobile-button-brochure" asChild>
+                  <a href="http://nirman.co.in/Nirman-Mangalum-Gangapur-Road-Nashik/mangalum-june-broucher.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download brochure PDF">
+                    Download Brochure
+                  </a>
                 </Button>
                 <Button className="bg-orange hover:bg-orange/90" data-testid="mobile-button-schedule-visit">
                   Schedule Visit

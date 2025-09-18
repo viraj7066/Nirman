@@ -74,9 +74,11 @@ export default function Footer() {
             <div>
               <Link href="/">
                 <div className="flex items-center gap-3 hover-elevate rounded-lg p-2 -ml-2">
-                  <div className="w-12 h-12 bg-orange rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-xl">N</span>
-                  </div>
+                  <img
+                    src="http://nirman.co.in/Nirman-Mangalum-Gangapur-Road-Nashik/assets/img/nirman.png"
+                    alt="Nirman Group logo"
+                    className="w-12 h-12 rounded object-contain bg-white"
+                  />
                   <div>
                     <h1 className="font-serif text-2xl font-bold text-white">Nirman Group</h1>
                     <p className="text-xs text-primary-foreground/80">Building Dreams Since 1980</p>
@@ -244,17 +246,49 @@ export default function Footer() {
           <div className="flex flex-col items-start lg:items-end gap-3">
             <p className="text-sm font-medium text-orange">Follow Us</p>
             <div className="flex gap-3">
-              <Button variant="ghost" size="icon" className="hover:bg-orange/10" data-testid="social-facebook">
-                <Facebook className="w-4 h-4" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:bg-orange/10" 
+                data-testid="social-facebook"
+                asChild
+              >
+                <a href="https://www.facebook.com/nirmangroupindia/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                  <Facebook className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-orange/10" data-testid="social-twitter">
-                <Twitter className="w-4 h-4" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:bg-orange/10" 
+                data-testid="social-twitter"
+                asChild
+              >
+                <a href="https://x.com/nirmangroup1" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X (Twitter)">
+                  <Twitter className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-orange/10" data-testid="social-instagram">
-                <Instagram className="w-4 h-4" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:bg-orange/10" 
+                data-testid="social-instagram"
+                asChild
+              >
+                <a href="https://www.instagram.com/nirmangroup/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                  <Instagram className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-orange/10" data-testid="social-youtube">
-                <Youtube className="w-4 h-4" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:bg-orange/10" 
+                data-testid="social-youtube"
+                asChild
+              >
+                <a href="https://www.youtube.com/user/NirmanGroup" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our YouTube channel">
+                  <Youtube className="w-4 h-4" />
+                </a>
               </Button>
             </div>
           </div>

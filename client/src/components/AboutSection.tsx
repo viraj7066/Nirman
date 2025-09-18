@@ -162,9 +162,11 @@ export default function AboutSection() {
 
         {/* CTA Section */}
         <div className="text-center">
-          <Button size="lg" className="bg-orange hover:bg-orange/90" data-testid="button-know-more">
-            Know More About Us
-            <ArrowRight className="ml-2 h-5 w-5" />
+          <Button size="lg" className="bg-orange hover:bg-orange/90" data-testid="button-know-more" asChild>
+            <a href="/about">
+              Know More About Us
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </div>

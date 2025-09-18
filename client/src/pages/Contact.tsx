@@ -452,18 +452,17 @@ export default function Contact() {
             <AnimatedSection delay={0.2}>
               <Card>
                 <CardContent className="p-0">
-                  <div className="bg-muted/50 h-96 rounded-lg flex items-center justify-center">
-                    <div className="text-center">
-                      <MapPin className="w-16 h-16 text-orange mx-auto mb-4" />
-                      <h3 className="text-xl font-semibold text-primary mb-2">Interactive Map</h3>
-                      <p className="text-muted-foreground mb-4">
-                        Google Maps integration would be embedded here
-                      </p>
-                      <Button className="bg-orange hover:bg-orange/90" data-testid="button-get-directions">
-                        Get Directions
-                        <ArrowRight className="ml-2 h-4 w-4" />
-                      </Button>
-                    </div>
+                  <div className="rounded-lg overflow-hidden">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.0377474407187!2d73.76356081125897!3d20.006930381321318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb997aa969f9%3A0x8e08926d300e9dcf!2sNirman%20Group%2C%20Nashik!5e0!3m2!1sen!2sin!4v1758135734763!5m2!1sen!2sin" 
+                      width="100%" 
+                      height="450" 
+                      style={{border: 0}} 
+                      allowFullScreen 
+                      loading="lazy" 
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Nirman Group Location Map"
+                    />
                   </div>
                 </CardContent>
               </Card>

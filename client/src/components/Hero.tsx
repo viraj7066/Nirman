@@ -112,9 +112,12 @@ export default function Hero() {
                 size="lg" 
                 className="bg-orange hover:bg-orange/90 text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all duration-300"
                 data-testid="button-explore-projects"
+                asChild
               >
-                <Building className="mr-2 h-5 w-5" />
-                Explore Our Projects
+                <a href="/projects">
+                  <Building className="mr-2 h-5 w-5" />
+                  Explore Our Projects
+                </a>
               </Button>
             </motion.div>
             <motion.div
