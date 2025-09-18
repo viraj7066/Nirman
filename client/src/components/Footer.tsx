@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
+import logoImage from "@assets/generated_images/logo.png";
 import { 
   MapPin, 
   Phone, 
@@ -75,7 +76,7 @@ export default function Footer() {
               <Link href="/">
                 <div className="flex items-center gap-3 hover-elevate rounded-lg p-2 -ml-2">
                   <img
-                    src="http://nirman.co.in/Nirman-Mangalum-Gangapur-Road-Nashik/assets/img/nirman.png"
+                    src={logoImage}
                     alt="Nirman Group logo"
                     className="w-12 h-12 rounded object-contain bg-white"
                   />
